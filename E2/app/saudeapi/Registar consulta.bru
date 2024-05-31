@@ -1,0 +1,18 @@
+meta {
+  name: Registar consulta
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://127.0.0.1:8080/a/Centro Clinico dos Anjos/registar/?paciente_ssn=10000000000&medico_nif=200000000&data_consulta=2024-06-01&hora_consulta=08:00
+  body: none
+  auth: none
+}
+
+query {
+  paciente_ssn: 10000000000
+  medico_nif: 200000000
+  data_consulta: 2024-06-01
+  hora_consulta: 08:00
+}
