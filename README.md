@@ -1,4 +1,4 @@
-Project for Data Base
+*Project for Data Base*
 
 Language used: 
 -PostgresSQL
